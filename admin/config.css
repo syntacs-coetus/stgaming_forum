@@ -1,0 +1,76 @@
+/* language editor issue icons */
+
+.langeditor_ok:before,
+.langeditor_nothingtocompare:before,
+.langeditor_warning:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: bold;
+}
+
+.langeditor_ok:before {
+	content: '\f00c';
+	color: var(--green);
+}
+
+.langeditor_nothingtocompare:before  {
+	content: '\f068';
+	color: var(--gray);
+}
+
+.langeditor_warning:before  {
+	content: '\f071';
+	color: var(--red);
+}
+
+/* language editor file list rows */
+.langeditor_editwithfile,
+.langeditor_phrases,
+.langeditor_editfile,
+.langeditor_issues,
+.langeditor_edit {
+	font-weight: bold;
+	text-align: center;
+}
+
+.langeditor_editwithfile,
+.langeditor_editfile {
+	text-align: left;
+}
+
+.langeditor_edit,
+.langeditor_phrases {
+	font-weight: normal;
+}
+
+/* language editor edit mode textareas */
+.langeditor_textarea_issue {
+	border-color: var(--red);
+}
+
+.langeditor_textarea_editwith {
+	background: var(--light);
+}
+.langeditor_textarea_edit,
+.langeditor_textarea_editwith {
+	width: 100%;
+	font-family: "open sans", sans-serif;
+}
+
+/* language editor main page */
+.langeditor_info_name {
+	font-weight: bold;
+}
+
+.langeditor_info_author {
+	font-size: x-small;
+}
+
+.langeditor_rtl {
+	direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.langeditor_ltr {
+	direction: ltr;
+	unicode-bidi: bidi-override;
+}

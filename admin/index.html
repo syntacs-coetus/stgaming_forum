@@ -1,0 +1,52 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+&nbsp;
+
+echo $this->extra_header;
+</head>
+<body>
+<header class="header"> 
+    <div class="wrapper wrapper--header"> 
+        <h1 class="header__title"> 
+            <a href="#" class="logo ">
+                 <span class="logo__icon"><img src="styles/{$this->style}/images/logo.svg" alt="Logo"></span>
+                 <span class="logo__text">{$lang->mybb_admin_cp} </span>
+        	  </a>
+        </h1> 
+        <nav class="user-menu"> 
+            <ul class="user-menu__links"> 
+$username = htmlspecialchars_uni($mybb->user['username']);
+                 <li class="user-menu__item">
+						<a href="index.php?module=user-users&amp;action=edit&amp;uid={$mybb->user['uid']}" class="user-menu__link">
+							<i class="fas fa-user"></i>
+							<span class="main-menu__text">{$username}</span>
+						</a>
+				   </li>
+                 <li class="user-menu__item">
+						<a href="{$mybb->settings['bburl']}" target="_blank" class="user-menu__link">
+							<i class="fas fa-globe-americas"></i>
+							<span class="main-menu__text">{$lang->view_board}</span>
+						</a>
+				   </li>
+                 <li class="user-menu__item">
+						<a href="index.php?action=logout&amp;my_post_key={$mybb->post_code}" class="user-menu__link">
+							<i class="fas fa-sign-out-alt"></i>
+							<span class="main-menu__text">{$lang->logout}</span>
+						</a>
+				   </li>
+            </ul> 
+        </nav> 
+    </div> 
+</header> 		
+<div id="container">
+	
+	
+	
+	
+	
+
+</body>
+</html>

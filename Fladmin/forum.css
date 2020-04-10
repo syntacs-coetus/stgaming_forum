@@ -1,0 +1,67 @@
+/* Moderation Queue */
+.modqueue_message {
+	overflow: auto;
+	max-height: 250px;
+}
+
+.modqueue_controls {
+	float: right;
+}
+
+.modqueue_controls label {
+	margin-left: 8px;
+}
+
+.radio_ignore~*, .radio_delete~*, .radio_approve~* {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.modqueue_mass {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: var(--accent);
+	border-radius: 3px;
+}
+
+.modqueue_mass li {
+	padding: 0;
+	flex: 1;
+	text-align: center;
+}
+
+.modqueue_mass li a {
+	display: block;
+	padding: 6px;
+}
+
+.modqueue_mass li a:hover {
+	background: var(--light);
+}
+
+.forum_settings_bit {
+	margin-bottom: 8px;
+}
+
+.forum_settings_bit input {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.forum_settings_bit select,
+.forum_settings_bit input.text_input,
+.forum_settings_bit textarea {
+	margin-top: 8px;
+}
+
+.forum_settings_bit label {
+	font-weight: normal;
+}
+
+.forum_settings_bit small {
+	padding-left: 25px;
+}

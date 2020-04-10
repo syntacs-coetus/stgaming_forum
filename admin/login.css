@@ -1,0 +1,150 @@
+html, button, input, select, textarea {
+	color: #222;
+	word-wrap: break-word;
+  }
+  
+  ::selection {
+	background: #3498db;
+	color: #fff;
+	text-shadow: none;
+  }
+  
+  body {
+	margin: 0;
+	font: 16px/26px "Open Sans", sans-serif;
+	background: #fff;
+	display: flex;
+	height: 100vh;
+	}
+  
+  input, select, textarea, button {
+	font: 16px "Open Sans", sans-serif;
+  }
+  
+  a:link,
+  a:visited {
+	color: #3498db;
+	text-decoration: none;
+  }
+  
+  a:hover,
+  a:active {
+	color: #2980B9;
+  }
+  
+  a:focus,
+  button:focus {
+	outline: 0;
+  }
+
+#container {
+    width: 90%;
+    max-width: 500px;
+    float: none;
+    margin: 100px auto;
+}
+
+#header a {
+    background: url(./images/logo.svg) 10px center no-repeat;
+    background-size: 30px;
+    display: block;
+    color: #95a5a6;
+    line-height: 40px;
+    padding-left: 50px;
+    border-radius: 3px;
+    font-weight: normal;
+    font-family: "Asap", sans-serif;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#content {
+    margin: 10px 0;
+    border: 1px solid #ECF0F1;
+    border-radius: 3px;
+}
+
+#content h2 {
+    margin: 15px 15px 0 15px;
+}
+
+.form_container {
+    padding: 5px 15px 15px 15px;
+}
+
+#content p.submit {
+    background: #f8f9fa;
+    border-top: 1px solid #ECF0F1;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content > p {
+    margin: 10px 15px 0 15px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #3498DB;
+    display: inline-flex;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    line-height: 26px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.label {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.text_input {
+    border: 1px solid #BDC3C7;
+    padding: 5px 6px;
+    width: 100%;
+    font-size: 16px;
+    outline: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#content #message {
+  background-color: #f7f7f7;
+  padding: 10px 12px;
+  margin: 10px 15px;
+  font-size: 0.9em;
+  border-radius: 4px;
+  border: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+#content #message.success {
+  background-color: #68c000;
+  color: #fff;
+}
+
+.alert,
+#content #message.error {
+  background-color: #eb5257;
+  color: #fff;
+}
+
+.alert {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 3px;
+}
