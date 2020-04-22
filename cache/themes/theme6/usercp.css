@@ -1,0 +1,407 @@
+.ucp_menu {
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    background: #fff;
+    z-index: 1200;
+    transition: all linear 0.3s;
+}
+
+.ucp_menu .closebtn {
+    position: absolute;
+    top: 7px;
+    right: 27px;
+    font-size: 22px;
+    color: #fff;
+    background: rgba(46, 64, 82, 0.8);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1.2;
+    border-radius: 50%;
+}
+
+.ucp_menu .closebtn:hover {
+    background: #ed5a5a;
+}
+
+a.botton_ucp {
+    position: fixed;
+    top: 260px;
+    left: 0px;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    background: rgba(0, 128, 255, 0.7);
+    z-index: 500;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+a.botton_ucp:hover {
+    width: 50px;
+}
+
+a.botton_ucp i {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    padding-right: 5px;
+}
+
+.ucp_menu h3 {
+  margin: 0px;
+  background: #333;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.ucp_menu h3 a {
+  color: #fff
+}
+
+.menu_ucp {
+    color: #f5f5f5;
+    background: #2e4052;
+    padding: 10px 8px;
+    text-align: center;
+    border-bottom: 3px solid #3399ff;
+}
+
+.menu_ucp span.smalltext {
+  font-size: 16px;
+}
+
+.menu_ucp_sub {
+  list-style: outside none none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu_ucp_sub li:hover {
+  background: #f5f5f5;
+}
+
+.menu_ucp_sub li a {
+    display: block;
+    padding: 10.5px 15px;
+    font-size: 13px;
+    color: #405972;
+}
+
+.menu_ucp_sub li a:hover {
+  color: #405972;
+  border-left: 4px solid #3399ff;
+}
+
+.menu_ucp_sub li a i {
+    float: right;
+    font-size: 14px;
+    margin-top: 2px;
+    color: #3399ff;
+}
+
+.usercp_container {
+	margin: 5px;
+	padding: 8px;
+	border:1px solid #CCCCCC;
+}
+
+#profile_customfield{
+  margin-top: 15px !important;
+}
+
+.pmspace {
+	margin: -3px 5px;
+}
+
+.pmspace_container {
+	background: #fff;
+	width: 100px;
+	display: inline-block;
+}
+
+.pmspace_used {
+	display: inline-block;
+	color: #fff;
+	margin: -1px;
+}
+
+.pmspace_used.low {
+	border: 1px solid #58a1a1;
+	background: #167203;
+}
+
+.pmspace_used.medium {
+	background: #ff862b;
+	border: 1px solid #ed5a5a;
+}
+
+.pmspace_used.high {
+	background: #e73c3c;
+	border: 1px solid #c00;
+}
+
+.pmspace_unused {
+	display: inline-block;
+}
+
+.pmspace_text {
+	padding: 1px 5px;
+	display: inline-block;
+    color: #2e4052;
+}
+
+.usercp_nav_item {
+  display: block;
+  padding: 1px 0 1px 23px;
+}
+
+.usercp_nav_composepm {
+  background-position: 0 0;
+}
+
+.usercp_nav_pmfolder {
+  background-position: 0 -20px;
+}
+
+.usercp_nav_sub_pmfolder {
+  padding-left: 40px;
+  background-position: 0 -40px;
+}
+
+.usercp_nav_trash_pmfolder {
+  padding-left: 40px;
+  background-position: 0 -60px;
+}
+
+.usercp_nav_pmtracking {
+  background-position: 0 -80px;
+}
+
+.usercp_nav_pmfolders {
+  background-position: 0 -100px;
+}
+
+.usercp_nav_profile {
+  background-position: 0 -120px;
+}
+
+.usercp_nav_email {
+  padding-left: 40px;
+  background-position: 0 -140px;
+}
+
+.usercp_nav_password {
+  padding-left: 40px;
+  background-position: 0 -160px;
+}
+
+.usercp_nav_username {
+  padding-left: 40px;
+  background-position: 0 -180px;
+}
+
+.usercp_nav_editsig {
+  padding-left: 40px;
+  background-position: 0 -200px;
+}
+
+.usercp_nav_avatar {
+  padding-left: 40px;
+  background-position: 0 -220px;
+}
+
+.usercp_nav_options {
+  background-position: 0 -240px;
+}
+
+.usercp_nav_usergroups {
+  background-position: 0 -260px;
+}
+
+.usercp_nav_editlists {
+  background-position: 0 -280px;
+}
+
+.usercp_nav_attachments {
+  background-position: 0 -300px;
+}
+
+.usercp_nav_drafts {
+  background-position: 0 -320px;
+}
+
+.usercp_nav_subscriptions {
+  background-position: 0 -340px;
+}
+
+.usercp_nav_fsubscriptions {
+  background-position: 0 -360px;
+}
+
+.usercp_nav_viewprofile {
+  background-position: 0 -380px;
+}
+
+.usercp_nav_home {
+  background-position: 0 -400px;
+}
+
+.usercp_notepad {
+  width: 99%;
+}
+
+.usercp_container {
+  margin: 5px;
+  padding: 8px;
+  border-top: 0 solid #CCC;
+  border-left: 0 solid #CCC;
+  border-right: 0 solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+.pmspace {
+    float: right;
+    margin: 5px 5px;
+}
+
+.pmspace_container {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 100px;
+  display: inline-block;
+}
+
+.pmspace_used {
+  display: inline-block;
+  color: #fff;
+  margin: -1px;
+}
+
+.pmspace_used.low {
+  border: 1px solid #58a1a1;
+  background: #167203;
+}
+
+.pmspace_used.medium {
+  background: #ff862b;
+  border: 1px solid #ed5a5a;
+}
+
+.pmspace_used.high {
+  background: #e73c3c;
+  border: 1px solid #c00;
+}
+
+.pmspace_unused {
+  display: inline-block;
+}
+
+.pmspace_text {
+  padding: 1px 5px;
+  display: inline-block;
+}
+		
+/** FontAwesome UCP Icons **/
+
+.usercp_nav_item::before {
+    padding-right: 10px;
+    font-size: 16px;
+    color: #3399ff;
+}
+.usercp_nav_home:before {
+    content: "\f0e4";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_composepm:before {
+    content: "\f0e0";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_pmfolder:before {
+    content: "\f07b";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_sub_pmfolder:before {
+    content: "\f07b";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_trash_pmfolder:before {
+    content: "\f1f8";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_pmtracking:before {
+    content: "\f11d";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_pmfolders:before {
+    content: "\f044";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_profile:before {
+    content: "\f085";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_username:before {
+    content: "\f090";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_password:before {
+    content: "\f084";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_email:before {
+    content: "\f1fa";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_avatar:before {
+    content: "\f03e";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_editsig:before {
+    content: "\f040";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_options:before {
+    content: "\f013";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_usergroups:before {
+    content: "\f0c0";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_editlists:before {
+    content: "\f004";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_attachments:before {
+    content: "\f0c6";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_drafts:before {
+    content: "\f15b";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_subscriptions:before {
+    content: "\f15c";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_fsubscriptions:before {
+    content: "\f0f2";
+	font-family: 'FontAwesome';
+}
+.usercp_nav_viewprofile:before {
+    content: "\f06e";
+	font-family: 'FontAwesome';
+}
+		
+/** .nav_messenger {
+  display: none;
+} **/
+
+		
+		
+		

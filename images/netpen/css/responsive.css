@@ -1,0 +1,1164 @@
+/* RESPONSIVE - MOBILE DEVICES - DESIGN */
+@media only screen and (max-width: 767px) {
+    body {
+        min-width: 100%;
+    }
+
+    div {
+        box-sizing: border-box;
+    }
+	
+	.wrapper-head {
+        border-top: 0px solid #4da6ff;
+    }
+	
+    .navigation-responsive {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 5px 5px 7px 10px;
+        border-top: 0 solid #ccc;
+        border-bottom: 0 solid #ccc;
+        background: #405972;
+    }
+
+    span.goto {
+        display: none;
+    }    
+	
+	.istatwrap {
+        text-align: left;
+    }
+	
+    .userunique-responsive {
+        float: left;
+        line-height: 3;
+        margin-left: 10px;
+    }
+	
+	.visible-xs {
+        display: block !important;
+    }
+	
+	#search input[type="search"] {
+       font-size: 30px;
+    }
+	
+	#search .btn {
+        left: 50%;
+    }
+	
+	#logo-responsive {
+		background: #fff url(../../../images/netpen/logo-bg.png) no-repeat center top;
+		text-align: center;
+		padding: 8px;
+		font-size: 24px;
+		width: 100%
+	}
+	#logo-responsive a {
+		color: #F27768;
+		text-decoration: none;
+		text-transform: uppercase
+	}
+	#logo-responsive h1 {
+		background: url(../../../images/gigarank/nav-bg-dark.png) center repeat;
+		margin-top: 0;
+		margin-bottom: 0
+	}
+	#logo-responsive img {
+		width: 250px;
+		margin-bottom: 0;
+		padding: 5%
+	}
+
+    #main-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    #wrapperindex {
+        width: 99%;
+    }
+	
+	#pm_notification {
+        line-height: 30px;
+        background: transparent;
+    }
+	
+	a.tsubject {
+        font-size: 13px;
+    }
+
+	.enter {
+        margin-right: 0;
+        float: none;
+    }
+	
+	img.panelavatar {
+        display: none;
+    }
+	
+    .user_avatar {
+        background: #fff;
+        margin: 10px 0 12px 12px;
+        float: left;
+    }
+
+    .buttons {
+        display: none !important;
+    }
+	
+	.share-button {
+
+    }
+
+    a.botton_ucp {
+        left: 0px;
+        width: 27px;
+        background: rgba(0, 128, 255, 0.5);
+    }
+	
+	a.botton_ucp:hover {
+        background: rgba(0, 128, 255, 1);
+    }
+	
+    a.botton_mcp {
+        left: 0px;
+        width: 27px;
+        background: rgba(0, 128, 255, 0.5);
+    }
+	
+	a.botton_mcp:hover {
+        background: rgba(0, 128, 255, 1);
+    }
+
+    .forums {
+        float: none !important;
+        width: 100% !important;
+    }
+	
+	.subforum_dropdown::before {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+	
+	a.new_thread_button:link, a.new_reply_button:link, a.closed_button:link, a.new_thread_button:hover, a.new_reply_button:hover, a.closed_button:hover, a.new_thread_button:visited, a.new_reply_button:visited, a.closed_button:visited, a.new_thread_button:active, a.new_reply_button:active, a.closed_button:active {
+	    font-size: 12px;
+	}
+	
+	form .col-sm-8 {
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px;
+    }
+	
+	.form-horizontal {
+        width: 90% !important;
+    }
+	
+	#registration_form {
+        width: 100%;
+        margin: 0;
+    }
+	
+    .post_content .signature::before, .panel-body .signature::before {
+        left: 60%;
+    }
+
+    .post.classic .post_author {
+        float: none;
+        width: 100%;
+    }
+
+    .post.classic .post_content {
+        float: none;
+        width: 100%;
+        margin-left: 0% !important;
+    }
+	
+	.postbit_buttons {
+        float: none;
+        margin-top: 5px;
+        text-align: center !important;
+    }
+
+    a.crumb {
+        color: #fff;
+		font-size: 11px !important;
+    }
+
+    a.crumb:hover {
+        color: #4da6ff;
+    }
+
+    .nav>li {
+        background-color: #23313E !important;
+        text-align: left;
+        padding-left: 5% !important;
+        height: 40px;
+		z-index: 9999;
+    }
+
+    .nav>li:hover {
+        background-color: #405972 !important;
+    }
+
+    .nav>li span {
+        line-height: 2.5;
+        padding-left: 5%;
+    }
+
+    .navbar-nav> l i>a {
+        color: #fff !important;
+    }
+
+    li.home a::before {
+        display: none;
+    }
+	
+	.istatwrap > ul > li {
+        float: none;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .author_information a {
+        font-size: 14px;
+    }
+
+    a.usercp_nav_item {
+        padding-left: 0;
+    }
+
+    .full {
+        width: 95%;
+    }
+
+    .panel {
+        width: 100%;
+    }
+	
+	.panel-body .col-sm-3 {
+        width: 100%;
+    }
+
+    .responsive {
+        display: block;
+    }
+
+    .wrapper {
+        width: 99%;
+    }
+	
+    li[role*="presentation"] a span, .nav_private, blockquote cite span {
+        display: none !important;
+    }
+
+    .post .post_author div.author_information {
+        width: 100%;
+    }
+
+    .post .classic .post .post_author div.author_information {
+        width: 100%;
+        text-align: center;
+    }
+
+    .post .post_author div.author_statistics {
+        width: 100%;
+        text-align: center;
+    }
+
+    .post .classic .post .post_author div.author_statistics {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pre-next {
+        float: none;
+    }
+
+    .modal {
+        width: 90%;
+        height: 310px;
+        margin-top: 0px !important;
+        top: 3% !important;
+        margin-left: 0px !important;
+        left: 5% !important;
+    }
+
+    .welcomebox {
+        width: 95%;
+        margin: 10px 0 0 7px;
+        text-align: left;
+        display: none;
+    }
+
+    .welcomelogin {
+        border-top: 0px solid #4da6ff;
+        border-left: 0 solid #4da6ff;
+        width: 90%;
+        padding: 30px 0 0 15px;
+        margin: 0 auto;
+    }
+	
+    .welcomelogin .checkbox label {
+        float: left;
+        width: 100%;
+    }
+
+    #panel-responsive {
+        min-height: 50px;
+    }
+
+    .welcome-guest {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .usersection {
+        display: none;
+    }
+
+    .usermenu {
+        display: none;
+    }
+	
+    #content {
+        width: 100%;
+		padding: 0px 0px 5px 0px;
+    }
+	
+	.col-lg-10, .col-xs-12 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #wrapperindex {
+        width: 100%;
+		padding: 0px;
+    }
+
+    .menu_ucp_sub li {
+        text-align: left;
+    }
+	
+    .menu_mcp_sub li {
+        text-align: left;
+    }
+
+    .rate_thread {
+        margin: 19px 0 0 !important;
+        font-size: 11px;
+    }
+
+    .userbrows {
+        float: none;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .new_thread {
+        width: 145px;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .new_reply {
+        margin-top: 10px;
+        margin-right: 1%;
+    }
+
+    .new_reply_bottom {
+        float: none !important;
+        margin-top: 10px;
+        margin-right: 1%;
+        text-align: center;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+
+    .mark-subscribe {
+        width: 100%;
+        float: left;
+        height: 30px;
+    }
+
+    #thread_modes {
+        font-size: 9px;
+        padding-right: 3px;
+    }
+	
+	.col-md-3 {
+        padding-left: 10px !important;
+    }
+
+    table {
+        overflow-x: auto;
+    }
+
+    input.textbox {
+        width: 90%;
+    }
+
+    table.tborder {
+        background: #fff;
+        width: 99%;
+    }
+
+    .thead {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .thead strong {
+        font-size: 15px;
+    }
+
+    td.thead {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    td.thead strong {
+        font-size: 15px;
+    }
+
+    tr.sort {
+        display: none;
+    }
+
+    .folder_icon {
+        display: none;
+    }
+	
+	.float_right img {
+        margin-bottom: 0px;
+    }
+
+    .trow1,.trow2 {
+        padding: 3px 0;
+    }
+
+    .thread_legend,.thread_legend dd {
+        display: none;
+    }
+
+    .float_left .multi {
+        display: none;
+    }
+
+    .thread_tools {
+        display: none;
+    }
+
+    span.tstat {
+        float: left;
+        width: 70%;
+        font-size: 10px;
+        padding-left: 7px;
+        display: block;
+    }
+
+    span.desc {
+        display: none;
+    }
+
+    .smalltextdesc {
+        display: none;
+    }
+
+    .status {
+        padding: 5px !important;
+    }
+
+    .trowstat {
+        background: transparent;
+        padding: 5px;
+        font-size: 10px;
+        border-left: 0 solid #fff;
+        text-align: left;
+        float: left !important;
+        min-height: 10px;
+    }
+
+    a.fname {
+        width: 100%;
+        font-size: 13px;
+        padding: 5px 0 0 5px;
+        text-align: left;
+    }
+
+    span.smalltext strong {
+        font-size: 12px;
+    }
+
+    .tcat,.tfoot {
+    }
+
+    .trow_stats_threads,.trow_stats_users,.trow_stats_newusers,.trow_stats_mostusers {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    dl.forum_legend {
+        display: none;
+    }
+
+    .bottom_top {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .theme {
+        float: none;
+        margin: 0 auto;
+        display: inline;
+    }
+
+    .banners {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .banner-left {
+        width: 95%;
+    }
+
+    .banner-right {
+        float: left;
+        width: 95%;
+    }
+
+    img,embed,object,video {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #boardstats_e {
+        text-align: center;
+    }
+
+    #boardstats_e span.smalltext {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer {
+        font: bold 14px sans-serif;
+    }
+
+    .footer .footer-left,.footer .footer-center,.footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-center h3,.footer-right h3 {
+        width: 100%;
+    }
+
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+
+    .post .post_author div.author_avatar {
+        float: none;
+    }
+
+    .post .post_author {
+        text-align: center;
+    }
+
+    .select {
+        margin: 10px auto;
+        padding: 0;
+        width: 90%;
+        height: 40px;
+        color: #FFF;
+        text-align: center;
+        display: inline-block;
+        border-bottom: 2px solid #4da6ff;
+    }
+
+    .select select {
+        background: #fff;
+        color: #5c6570;
+        border: 1px solid #393f46;
+        padding: 3px;
+        outline: 0;
+        font-family: 'Exo 2',sans-serif;
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+        margin: 2px auto;
+    }
+
+    .expcolimage {
+        margin: 0 5px;
+    }
+	
+    .profile-topbar .topbar-text {
+        padding: 13px 15px !important;
+    }
+
+    .profile-topbar .topbar-text div:first-child {
+        text-align: center;
+    }
+
+    .topbar-text .group_img {
+        text-align: right;
+    }
+
+    .topbar-text .group_img strong {
+        text-align: left;
+        float: left;
+		padding-top: 7px;
+    }
+
+    span.badge {
+        margin: 3px 0;
+    }
+	
+	.nav-tabs > li {
+        margin-bottom: 0px;
+        background-color: transparent !important;
+		padding-left: 0% !important;
+    }
+	
+    .nav-tabs > li:hover {
+        background-color: #fff !important;
+    }
+	
+	.nav-tabs > li a {
+        color: #4da6ff;
+    }
+}
+
+@media screen and (max-width: 980px) and (min-width: 736px) {
+    body {
+        min-width: 100%;
+    }
+
+    div {
+        box-sizing: border-box;
+    }
+
+    #main-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .wrapper {
+        width: 99%;
+    }
+
+    #wrapperindex {
+        width: 99%;
+    }
+
+	#logo{
+		background: #fff url(../../../images/netpen/logo-bg.png) no-repeat center bottom;
+		text-align: center;
+		padding: 8px;
+		font-size: 24px;
+		width: 100%
+	}
+	#logo a {
+		color: #F27768;
+		text-decoration: none;
+		text-transform: uppercase
+	}
+	#logo h1 {
+		background: url(../../../images/gigarank/nav-bg-dark.png) center repeat;
+		margin-top: 0;
+		margin-bottom: 0
+	}
+	#logo img {
+		width: 250px;
+		margin-bottom: 0;
+		padding: 5%
+	}
+
+    .modal {
+        width: 90%;
+        height: 600px;
+        margin-top: 30px !important;
+        top: 3% !important;
+        margin-left: 0 !important;
+        left: 5% !important;
+    }
+
+    .welcomebox {
+        width: 95%;
+        margin: 10px 0 0 7px;
+        text-align: left;
+    }
+
+    .welcomelogin {
+        border-top: 2px solid #4da6ff;
+        border-left: 0 solid #4da6ff;
+        width: 90%;
+        padding: 30px 0 0 10px;
+        margin-left: 0;
+    }
+
+    .menu {
+        width: 400px;
+    }
+
+    .menu ul li {
+        height: 47px;
+        line-height: 47px;
+    }
+
+    .usersection {
+        width: 320px;
+    }
+
+    .navbar-nav> li > a:hover {
+        color: #23313E;
+    }
+
+    .navbar-collapse {
+        float: none;
+		padding-right: 15px;
+        padding-left: 15px;
+    }
+	
+	.collapse.in {
+        display: block !important;
+    }
+
+    .panel {
+        width: 95%;
+    }
+	
+	.panel-body .col-sm-3 {
+        width: 50%;
+    }
+
+    table {
+        overflow-x: auto;
+    }
+
+    table.tborder {
+        background: #fff;
+        width: 99%;
+    }
+
+    td.thead {
+        padding: 0;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    td.thead strong {
+        font-size: 15px;
+    }
+
+    span.desc {
+        display: none;
+    }
+
+    .smalltextdesc {
+        display: none;
+    }
+
+    .status {
+        padding: 5px !important;
+    }
+
+    .trowstat {
+        background: transparent;
+        padding: 5px;
+        font-size: 10px;
+        border-left: 0 solid #fff;
+        text-align: left;
+        float: left !important;
+    }
+
+    a.fname {
+        width: 100%;
+        font-size: 13px;
+        padding: 5px 0 0 5px;
+    }
+
+    span.smalltext strong {
+        font-size: 12px;
+    }
+
+    #wrapperindex .smalltext {
+        font-size: 9px;
+    }
+
+    .tcat,.tfoot {
+    }
+
+    .trow_stats_threads,.trow_stats_users,.trow_stats_newusers,.trow_stats_mostusers {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    dl.forum_legend {
+        display: none;
+    }
+
+    .bottom_top {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .theme {
+        float: left;
+    }
+
+    .banners {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .banner-left {
+        width: 95%;
+    }
+
+    .banner-right {
+        float: left;
+        width: 95%;
+    }
+
+    img,embed,object,video {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #boardstats_e {
+        text-align: center;
+    }
+
+    #boardstats_e span.smalltext {
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer {
+        font: bold 14px sans-serif;
+    }
+
+    .footer {
+        padding: 15px 10px;
+    }
+
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+
+    .select {
+        margin: 10px auto;
+        padding: 0;
+        width: 90%;
+        height: 40px;
+        color: #FFF;
+        text-align: center;
+        display: inline-block;
+        border-bottom: 2px solid #4da6ff;
+    }
+
+    .select select {
+        background: #fff;
+        color: #5c6570;
+        border: 1px solid #393f46;
+        padding: 3px;
+        outline: 0;
+        font-family: 'Exo 2',sans-serif;
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+        margin: 2px auto;
+    }
+
+    .expcolimage {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+	#header, .navigation, #logo, #logo .fa, .usermenu {
+        display: none;
+    }
+	
+	#header-responsive, .menu-responsive, .navigation-responsive, #logo-responsive, #logo-responsive .fa, .usermenu-responsive {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .portal-wrapper .col-md-8 {
+        width: 100%;
+    }
+	.portal_date {
+        float: none;
+    }
+	.width-mobile {
+		width: 50%;
+		float: left;
+	}
+}
+
+.label-warning a {
+    color: #fff !important;
+}
+
+@media screen and (max-width:980px) and (min-width:767px) {
+	body {
+		min-width: 100%
+	}
+	div {
+		box-sizing: border-box
+	}
+	.col-md-3 {
+       padding-left: 10px;
+       padding-right: 0;
+    }
+	#main-container {
+		width: 100%;
+		margin: 0
+	}
+	.wrapper {
+		width: 99%
+	}
+	#wrapperindex {
+		width: 99%
+	}
+	#logo {
+		margin-top: 38px;
+        height: 160px;
+	}
+	.logo-inner {
+        padding: 0;
+    }
+	#logo img {
+       width: 300px;
+       margin-bottom: 0;
+       padding: 2%;
+    }
+	.modal {
+		width: 90%;
+		height: 600px;
+		margin-top: 30px !important;
+		top: 3% !important;
+		margin-left: 0 !important;
+		left: 5% !important
+	}
+	.nav {
+		list-style: none;
+		padding-left: 2%;
+	}
+	.navbar-header {
+		float: none
+	}
+	.navbar-toggle {
+		display: block
+	}
+	.navbar-collapse.collapse {
+		overflow-y: auto !important
+	}
+	.navbar-nav {
+		float: none
+	}
+	.navbar-nav>li {
+		float: none
+	}
+	.nav>li {
+		text-align: left;
+		height: 40px;
+		z-index: 9999;
+		position: relative;
+		display: block
+	}
+	.nav>li>a {
+		position: relative;
+		display: block;
+		padding: 10px 15px
+	}
+	.nav_inbox li.active span {
+        background: #fff;
+        border: 0px solid #009dff;
+        position: relative;
+        padding: 0;
+        transition: padding-right 0s;
+        color: #009dff;
+    }
+	.nav_inbox li.active:hover span {
+        padding-right: 0px;
+    }
+	.panel {
+		width: 100%
+	}
+	.panel-body .col-sm-3 {
+		width: 50%
+	}
+	.tab-content .panel {
+        width: 98%;
+    }
+	table {
+		overflow-x: auto
+	}
+	table.tborder {
+		background: #fff;
+		width: 99%
+	}
+	td.thead {
+		padding: 0;
+		text-align: center;
+		line-height: 50px
+	}
+	td.thead strong {
+		font-size: 15px
+	}
+	span.desc {
+		display: none
+	}
+	.smalltextdesc {
+		display: none
+	}
+	.status {
+		padding: 5px !important
+	}
+	.trowstat {
+		background: transparent;
+		padding: 5px;
+		font-size: 10px;
+		border-left: 0 solid #fff;
+		text-align: left;
+		float: left !important
+	}
+	a.fname {
+		width: 100%;
+		font-size: 13px;
+		padding: 5px 0 0 5px
+	}
+	span.smalltext strong {
+		font-size: 12px
+	}
+	#wrapperindex .smalltext {
+		font-size: 9px
+	}
+	.tcat, .tfoot {}
+	.trow_stats_threads, .trow_stats_users, .trow_stats_newusers, .trow_stats_mostusers {
+		width: 100%;
+		float: left;
+		text-align: center
+	}
+	dl.forum_legend {
+		display: none
+	}
+	.bottom_top {
+		width: 100%;
+		float: left;
+		text-align: center
+	}
+	.theme {
+		float: left
+	}
+	.banners {
+		width: 100%;
+		padding: 5px
+	}
+	.banner-left {
+		width: 95%
+	}
+	.banner-right {
+		float: left;
+		width: 95%
+	}
+	img, embed, object, video {
+		max-width: 100%;
+		margin-bottom: 15px
+	}
+	.headimage img {
+		margin-bottom: 0px
+	}
+	#boardstats_e {
+		text-align: center
+	}
+	#boardstats_e span.smalltext {
+		width: 100%;
+		padding: 0
+	}
+	.footer {
+		font: bold 13px sans-serif
+	}
+	.footer {
+		padding: 15px 10px
+	}
+	.footer .footer-center i {
+		margin-left: 0
+	}
+	.select {
+		margin: 10px auto;
+		padding: 0;
+		width: 90%;
+		height: 40px;
+		color: #FFF;
+		text-align: center;
+		display: inline-block;
+		border-bottom: 2px solid #33b2ff
+	}
+	.select select {
+		background: #fff;
+		color: #5c6570;
+		border: 1px solid #393f46;
+		padding: 3px;
+		outline: 0;
+		font-family: 'Exo 2', sans-serif;
+		font-size: 20px;
+		width: 80%;
+		text-align: center;
+		margin: 2px auto
+	}
+	.expcolimage {
+		margin: 0 5px
+	}
+}
+
+@media screen and (max-width:797px) and (min-width:767px) {
+	.menu {
+        display: block;
+		text-align: center;
+	}
+	
+    li.home a {
+        padding: 0;;
+    }
+	
+    li.home a::before {
+        display: block;
+    }
+	
+	.usersection {
+        display: block;
+    }
+	
+	.usermenu {
+        display: block;
+    }
+}

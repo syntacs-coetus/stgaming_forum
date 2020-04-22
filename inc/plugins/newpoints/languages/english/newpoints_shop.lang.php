@@ -26,12 +26,12 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ****************************************************************************/
 
-$l['newpoints_shop'] = "Shop";
+$l['newpoints_shop'] = "Cash Shop";
 
 $l['newpoints_shop_icon'] = 'Icon';
 $l['newpoints_shop_categories'] = 'Categories';
 $l['newpoints_shop_items'] = 'Items';
-$l['newpoints_shop_buy'] = 'Buy';
+$l['newpoints_shop_buy'] = 'Purchase';
 $l['newpoints_shop_price'] = 'Price';
 $l['newpoints_shop_stock'] = 'Stock';
 $l['newpoints_shop_name'] = 'Name';
